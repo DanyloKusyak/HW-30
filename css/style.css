@@ -1,0 +1,43 @@
+.box {
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: boxkeys 5s ease 0s infinite ;
+}
+
+@keyframes boxkeys {
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: blue;
+        left: 0;
+        top: 300px;
+    }
+
+    50% {
+        background-color: green;
+        left: 300px;
+        top: 300px;
+    }
+
+    75% {
+        background-color: yellow;
+        left: 300px;
+        top: 0;
+    }
+
+
+
+    100% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+}
